@@ -1,0 +1,31 @@
+# Raw sequencing data
+raw_data/
+
+# Alignment
+alignment/
+
+# Reference
+refrence/
+
+# GATK
+GATK/
+
+# FastQC
+fastQC_result/
+
+# SnpEff installation
+snpEff/
+snpEff_latest_core.zip
+
+# Large files
+*.sam
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+
+# Python
+__pycache__/
+*.pyc
+
+ERR605261/
