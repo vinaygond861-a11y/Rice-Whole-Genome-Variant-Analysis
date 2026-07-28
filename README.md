@@ -76,7 +76,7 @@ Rice-Whole-Genome-Variant-Analysis/
 
 This figure shows the top 20 genes containing HIGH impact variants identified in the rice genome.
 
-![Top 20 High Impact Genes](images/top20_high-impact-genes.png)
+![Top 20 High Impact Genes](images/top20_high_impact-genes.png)
 ## Project Outputs
 
 - Variant Calling (VCF)
