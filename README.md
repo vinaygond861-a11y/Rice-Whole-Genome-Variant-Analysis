@@ -2,25 +2,44 @@
 
 ## Project Overview
 
-This project performs whole genome variant analysis of rice using publicly available sequencing data (SRA: ERR605261).
+This project demonstrates a complete Whole Genome Variant Analysis pipeline using publicly available Rice (Oryza sativa) sequencing data.
 
-The workflow includes quality control, read alignment, variant calling, variant annotation, exploratory data analysis (EDA), and data visualization using Python.
+The workflow includes sequence quality control, genome alignment, variant calling, variant annotation, exploratory data analysis (EDA), and biological visualization.
+
+---
+
+## Dataset
+
+- Organism: Oryza sativa (Rice)
+- SRA Accession: ERR605261
+
+---
 
 ## Workflow
 
-- Download SRA data
-- FASTQ Quality Control (FastQC)
-- Read Alignment (BWA)
-- BAM Processing (SAMtools)
-- Variant Calling (GATK HaplotypeCaller)
-- Variant Annotation (SnpEff)
-- VCF to CSV Conversion
-- Exploratory Data Analysis (Python)
-- Data Visualization (Matplotlib)
+FASTQ
+↓
+FastQC
+↓
+BWA Alignment
+↓
+SAMtools
+↓
+GATK HaplotypeCaller
+↓
+VCF Generation
+↓
+SnpEff Annotation
+↓
+Python Analysis
+↓
+Visualization
+
+---
 
 ## Tools Used
 
-- Linux (Ubuntu)
+- Linux
 - BWA
 - SAMtools
 - GATK
@@ -28,21 +47,26 @@ The workflow includes quality control, read alignment, variant calling, variant 
 - Python
 - Pandas
 - Matplotlib
-- VS Code
+- Jupyter Notebook
 - Git
 - GitHub
 
-## Results
+---
 
-- Total Variants Identified: ~350,000
-- Variant Annotation Completed
-- High, Moderate, Low and Modifier variants identified
+## Project Outputs
+
+- Variant Calling (VCF)
+- Annotated VCF
+- Variant Table
+- Exploratory Data Analysis
 - Chromosome-wise Variant Distribution
 - Variant Quality Distribution
 - Top Moderate Impact Genes
 
+---
+
 ## Author
 
 Vinay Gond
+
 M.Sc. Bioinformatics
-DDU Gorakhpur University
