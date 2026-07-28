@@ -77,6 +77,12 @@ Rice-Whole-Genome-Variant-Analysis/
 This figure shows the top 20 genes containing HIGH impact variants identified in the rice genome.
 
 ![Top 20 High Impact Genes](images/top20_high_impact-genes.png)
+
+### Chromosome-wise Variant Distribution
+
+This figure shows the distribution of detected genetic variants across all rice chromosomes. It provides an overview of how variants are distributed throughout the genome and highlights chromosomes with relatively higher variant density.
+
+![Chromosome-wise Variant Distribution](images/chromosome_variant_distribution.png)
 ## Project Outputs
 
 - Variant Calling (VCF)
