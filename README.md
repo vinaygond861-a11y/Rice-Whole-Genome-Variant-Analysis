@@ -52,6 +52,21 @@ Visualization
 - GitHub
 
 ---
+## Project Structure
+
+```
+Rice-Whole-Genome-Variant-Analysis/
+│
+├── raw_data/
+├── reference/
+├── alignment/
+├── GATK/
+├── fastQC_result/
+├── rice_project.ipynb
+├── variant_table.csv
+├── README.md
+└── .gitignore
+```
 
 ## Project Outputs
 
